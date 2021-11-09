@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <script src="./main.js">
 
     </script>
+
+    <style>
+
+        .buono {
+            background-color: green;
+        }
+
+        .ottimo {
+            background-color: teal;
+        }
+
+        .insufficiente {
+            background-color: orange;
+        }
+
+        .gravementeinsufficiente {
+            background-color: red;
+        }
+
+
+
+
+    </style>
 </head>
 <body>
-    <p>
-        Questo è un nuovo paragrafo
-    </p>
+   <input id = "voto">
+   <button onclick="aggiungivoto()">Aggiungi</button>
+   <p>Media:<span id = "media">Non definita</span></p> 
+   <p>Esito:<span id = "esito">Qui uscirà l'esito</span></p>
+   <ul id = "lista">
+       <li>10</li>
+   </ul>
 </body>
 </html>
